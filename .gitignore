@@ -1,0 +1,10 @@
+# Local virtual environment
+flask_demoenv
+
+# Nginx socket
+*.sock
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
