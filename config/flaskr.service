@@ -1,0 +1,13 @@
+[Unit]
+Description=Gunicorn instance to serve flaskr
+After=network.target
+
+[Service]
+User=flaskr
+Group=nginx
+WorkingDirectory=/home/flaskr/public_html
+Environment="PATH=/home/flaskr/public_html/flask_demoenv/bin"
+ExecStart=/home/flaskr/public_html/flask_demoenv/bin/gunicorn --workers 3 --bind unix:flaskr.sock -m 007 run
+
+[Install]
+WantedBy=multi-user.target
