@@ -35,7 +35,7 @@ class ProjectTests(unittest.TestCase):
     def test_index_page(self):
         response = self.flaskrapp.get('/', follow_redirects=True)
         self.assertIn(b'Flaskr', response.data)
-        self.assertIn(b'A simple Flask app.', response.data)
+        self.assertIn(b'A simple Flask cow.', response.data)
  
  
 if __name__ == "__main__":
