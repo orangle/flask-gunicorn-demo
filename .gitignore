@@ -8,3 +8,6 @@ flask_demoenv
 __pycache__/
 *.py[cod]
 *$py.class
+
+# coverage
+.coverage
