@@ -6,9 +6,9 @@ import unittest
 from flaskr import flaskrapp
  
 class ProjectTests(unittest.TestCase):
-"""
-setup and teardown
-"""
+    """
+    setup and teardown
+    """
     def setUp(self):
     # executed prior to each test
         flaskrapp.config['TESTING'] = True
