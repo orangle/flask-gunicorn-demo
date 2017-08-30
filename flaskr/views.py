@@ -7,7 +7,7 @@ This is 'views.py' - which uses decorators to generate views.
 # imports
 from flaskr import flaskrapp # pylint: disable=invalid-name
 from flask import render_template
-from flask import request
+# from flask import request
 
 # routes
 @flaskrapp.route('/')
