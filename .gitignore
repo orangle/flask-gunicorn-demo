@@ -1,5 +1,6 @@
 # Local virtual environment
 flask_demoenv
+buildenv
 
 # Nginx socket
 *.sock
